@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+}
+
+
+body {
+background: rgb(4, 73, 54);
+color: rgb(59, 44, 127);
+font-family: "Anta", sans-serif;
+
+}
+
+h1{
+        font-family: "Anta", sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        font-style: normal;
+      
+}
+
+h1 strong {
+    color: rgb(255, 255, 255);
+}
+ul{
+    list-style: none;
+
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: inherit;
+
+}
+
+/*
+.Padre{
+    background: wheat;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+
+
+
+}
+
+.Hijo{
+    background: rgb(103, 122, 179);
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(5, 41, 108);
+    font-size: 30px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+*/
+
+.Aplicar{
+    height: 500px;
+    background:#ffffff;
+    display: flex;
+    color: rgb(73, 73, 7);
+}
+
+.Aplicar-detalles{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    text-align: center;
+}
+
+.Aplicar-detalles img{
+    height: 90%;
+}
+
+.Container1{
+    display: flex;
+    background-color:#06D0FD;
+}
+
+.Container2{
+    background-color: black;
+}
+
+.header{
+    background-color: #0066FF;
+    color: rgb(27, 55, 61);
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    
+}
+
+.header li{
+    height: inherit;
+}
+
+.header a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.logo img{
+
+    width: 100px
+}
+
+
+.menu{
+    height: inherit;
+}
+
+.Principal {
+    background-color: rgb(107, 152, 114);
+    background-image: url('img/Fondo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: rgb(12, 12, 138);
+        font-family: "Anta", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding: 100px;
+}
+
+.Principal img{
+    width: 300px;
+}
+
+.Principal-boton{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(27, 204, 201);
+    border-radius: 24px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.Somos {
+background-color: rgb(175, 110, 45);
+text-align: center;
+color: rgb(161, 219, 73);
+padding: 50px;
+font-size: 20px;
+
+}
+.Somos h2{
+    color: rgb(102, 53, 8);
+    margin-bottom: 10px;
+}
+
+.Somos p{
+    margin-bottom: 20px;
+}
+.Third {
+background: rgb(27, 5, 77);
+text-align: center;
+color: rgb(106, 183, 117);
+padding: 100px;
+margin: 20px
+}
